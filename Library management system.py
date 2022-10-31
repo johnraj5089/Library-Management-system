@@ -1,17 +1,10 @@
 # --- Python Mini Project - Library Management System -----
-# Create list_of_books.txt file 
-# List of books :
 
 import datetime
 import os
 os.getcwd()
 
 class Library:
-    """
-    This class is used to keep records of books library.
-    It has total four modules: 'Display Books', 'Lend Books', 'Add Books', 'Return Books'
-    'list_of_books' should be txt file. 'library_name' should be string.
-    """
 
     def __init__(self, list_of_books, library_name):
         self.list_of_books = "list_of_books.txt"
